@@ -1,11 +1,14 @@
 # ConSerV
 
 GitHub Repository for ConSerV 
-**(Refer to https://dzone.com/articles/top-20-git-commands-with-examples for some examples on git commands, otherwise look at the git docs)**
-
+## Download Git On Windows First:
+https://gitforwindows.org/
+## Git Commands Docs
+https://dzone.com/articles/top-20-git-commands-with-examples
+1. Or refer to internet docs on git cli commands
 **Section A: (Only applicable to repository owner)**
 
-[Upload existing project to GitHub repository:
+## Upload existing project to GitHub repository:
 
 1. git init  (initializes empty repository)
 2. git add . (adds all files that have been changed to commit list)
@@ -17,12 +20,12 @@ GitHub Repository for ConSerV
 Remember all git codes should only be done in the project folder - ie : D:\IonicApps\ConserV
 Section B should typically only be done once upon first importing of repository and creating of branch**
 
-[Import codes from Github repository into local environment:
+## Import codes from Github repository into local environment:
 
 1. git clone https://github.com/Ben-Tay/ConSerV.git
 2. git pull origin master (may or may not need on first time you import to your local project)
 
-[Create your own branch:
+## Create your own branch:
 
 1. git checkout -b <branchname> (note that <> is not required when you write in your terminal)
 2. git checkout master (switch back to master branch) - not rlly required usually (just showing you how to switch between branches)
@@ -38,7 +41,7 @@ Section B should typically only be done once upon first importing of repository 
 
 **Section D: Branch Merging**
 
-[Each time you want to make a pull request (merge your branch to the master):
+## Each time you want to make a pull request (merge your branch to the master):
 
 1. Assume u have done the steps for Section C already with everything for the feature you are working on done.
 2. git pull origin master (updates your branch/own local project with the integrated codes)
@@ -49,7 +52,7 @@ Section B should typically only be done once upon first importing of repository 
 5. select a reviewer who will go through your codes and decide if you should make changes or merge your branch to master
 
 
-[Assume you face a merge conflict after git pull origin master: (Feel free to ask us if you meet issues with this)]
+## Assume you face a merge conflict after git pull origin master: (Feel free to ask us if you meet issues with this)]
 
 1. Resolve the merge conflict 
 (Merge conflict errors will be shown in your own local project - you have to resolve them by deleting the lines in files that are stated to have errors in your terminal. 
