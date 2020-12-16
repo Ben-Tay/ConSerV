@@ -15,7 +15,7 @@ GitHub Repository for ConSerV
 
 **Section B: Apart From Section A, Rest all applicable to everyone
 Remember all git codes should only be done in the project folder - ie : D:\IonicApps\ConserV
-Section B should typically only be done once upon first importing of repository and creating of branch
+Section B should typically only be done once upon first importing of repository and creating of branch**
 
 [Import codes from Github repository into local environment:
 
@@ -28,7 +28,7 @@ Section B should typically only be done once upon first importing of repository 
 2. git checkout master (switch back to master branch) - not rlly required usually (just showing you how to switch between branches)
 3. git checkout branchname (switch to any other branch)
 
-**Section C: (For every) - remember Section C onwards must be done in your own branch
+**Section C: (For everyone) - remember Section C onwards must be done in your own branch**
 
 [Everytime u make changes in your own branch and want to push your codes to github in your own branch:
 
@@ -36,7 +36,7 @@ Section B should typically only be done once upon first importing of repository 
 2. git commit -m 'hello' (commits all added files with a message)  
 3. git push origin yourbranchname (pushes your codes to your branch)
 
-**Section D: Branch Merging
+**Section D: Branch Merging**
 
 [Each time you want to make a pull request (merge your branch to the master):
 
