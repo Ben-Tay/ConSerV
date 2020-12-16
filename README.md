@@ -5,24 +5,24 @@ GitHub Repository for ConSerV
 
 **Section A: (Only applicable to repository owner)**
 
-[Upload existing project to GitHub repository: ]
+[Upload existing project to GitHub repository:
 
 1. git init  (initializes empty repository)
 2. git add . (adds all files that have been changed to commit list)
 3. git commit -m '' (commits all added files with a message)
-4. git remote add origin git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+4. git remote add origin git clone https://github.com/Ben-Tay/ConSerV.git
 5. git push origin master 
 
 **Section B: Apart From Section A, Rest all applicable to everyone
-Remember all git codes should only be done in the project folder - ie : D:\IonicApps\ConserV****
-**Section B should typically only be done once upon first importing of repository and creating of branch**
+Remember all git codes should only be done in the project folder - ie : D:\IonicApps\ConserV
+Section B should typically only be done once upon first importing of repository and creating of branch
 
-[Import codes from Github repository into local environment:]
+[Import codes from Github repository into local environment:
 
-1. git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+1. git clone https://github.com/Ben-Tay/ConSerV.git
 2. git pull origin master (may or may not need on first time you import to your local project)
 
-[Create your own branch:]
+[Create your own branch:
 
 1. git checkout -b <branchname> (note that <> is not required when you write in your terminal)
 2. git checkout master (switch back to master branch) - not rlly required usually (just showing you how to switch between branches)
@@ -30,7 +30,7 @@ Remember all git codes should only be done in the project folder - ie : D:\Ionic
 
 **Section C: (For every) - remember Section C onwards must be done in your own branch
 
-[Everytime u make changes in your own branch and want to push your codes to github in your own branch:[
+[Everytime u make changes in your own branch and want to push your codes to github in your own branch:
 
 1. git add . (adds all files that have been changed to commit list) or git add ../.. (path of file if you do not want to add all files that have changes)
 2. git commit -m 'hello' (commits all added files with a message)  
@@ -38,7 +38,7 @@ Remember all git codes should only be done in the project folder - ie : D:\Ionic
 
 **Section D: Branch Merging
 
-[Each time you want to make a pull request (merge your branch to the master):]
+[Each time you want to make a pull request (merge your branch to the master):
 
 1. Assume u have done the steps for Section C already with everything for the feature you are working on done.
 2. git pull origin master (updates your branch/own local project with the integrated codes)
@@ -61,5 +61,6 @@ Remember all git codes should only be done in the project folder - ie : D:\Ionic
 6. select a reviewer who will go through your codes and decide if you should make changes or merge your branch to master
 
 **Section E: Helpful Git Commands**
+
 1. git status (checks added files or files to be committed)
 2. git branch (checks what branch you are on)
