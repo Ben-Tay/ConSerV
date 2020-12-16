@@ -31,9 +31,8 @@ Section B should typically only be done once upon first importing of repository 
 
 ##### Create your own branch:
 
-1. git checkout -b <branchname> (note that <> is not required when you write in your terminal)
-2. git checkout master (switch back to master branch) - not rlly required usually (just showing you how to switch between branches)
-3. git checkout branchname (switch to any other branch)
+1. git checkout -b branchname (creates a new branch and switches you to that branch)
+2. git checkout branchname (switch to any other branch)
 
 **Section C: (For everyone) - remember Section C onwards must be done in your own branch**
 
