@@ -18,9 +18,11 @@ https://dzone.com/articles/top-20-git-commands-with-examples
 4. git remote add origin git clone https://github.com/Ben-Tay/ConSerV.git
 5. git push origin master 
 
-**Section B: Apart From Section A, Rest all applicable to everyone
+**Section B: Apart From Section A, Rest all applicable to everyone**
+
 Remember all git codes should only be done in the project folder - ie : D:\IonicApps\ConserV
-Section B should typically only be done once upon first importing of repository and creating of branch**
+
+Section B should typically only be done once upon first importing of repository and creating of branch
 
 ##### Import codes from Github repository into local environment:
 
