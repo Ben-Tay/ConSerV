@@ -35,7 +35,7 @@ Section B should typically only be done once upon first importing of repository 
 
 **Section C: (For everyone) - remember Section C onwards must be done in your own branch**
 
-[Everytime u make changes in your own branch and want to push your codes to github in your own branch:
+##### Everytime u make changes in your own branch and want to push your codes to github in your own branch:
 
 1. git add . (adds all files that have been changed to commit list) or git add ../.. (path of file if you do not want to add all files that have changes)
 2. git commit -m 'hello' (commits all added files with a message)  
@@ -47,8 +47,8 @@ Section B should typically only be done once upon first importing of repository 
 
 1. Assume u have done the steps for Section C already with everything for the feature you are working on done.
 2. git pull origin master (updates your branch/own local project with the integrated codes)
-   (Will not affect your codes unless someone else has touched the file you have worked on and merged their changes into master - this may result in a merge conflict)
-   (We often advise to do git pull origin master regularly even if not merging yet so that your branch wont be behind by the master by a lot of commits)
+   2.1 Will not affect your codes unless someone else has touched the file you have worked on and merged their changes into master - this may result in a merge conflict
+   2.2 We often advise to do git pull origin master regularly even if not merging yet so that your branch wont be behind by the master by a lot of commits
 3. Assume you have not faced any merge conflict, do git push origin yourbranchname again after updating local project with master branch
 4. make a pull request for your branch(it will be shown on the Github repository site itself)
 5. select a reviewer who will go through your codes and decide if you should make changes or merge your branch to master
@@ -57,8 +57,8 @@ Section B should typically only be done once upon first importing of repository 
 ##### Assume you face a merge conflict after git pull origin master: (Feel free to ask us if you meet issues with this)]
 
 1. Resolve the merge conflict 
-(Merge conflict errors will be shown in your own local project - you have to resolve them by deleting the lines in files that are stated to have errors in your terminal. 
-(Search the internet to see how to resolve)
+   1.1 Merge conflict errors will be shown in your own local project - you have to resolve them by deleting the lines in files that are stated to have errors in your terminal. 
+   1.2 Search the internet to see how to resolve
 2. git add .
 3. git commit -m ''
 4. git push origin your branch name
