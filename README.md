@@ -28,6 +28,8 @@ Section B should typically only be done once upon first importing of repository 
 
 1. git clone https://github.com/Ben-Tay/ConSerV.git
 2. git pull origin master (may or may not need on first time you import to your local project)
+3. npm install
+4. ionic serve
 
 ##### Create your own branch:
 
